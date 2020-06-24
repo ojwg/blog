@@ -28,7 +28,7 @@ twitter_username: people_dont_tweet
 github_username:  ojwg
 
 # Build settings
-theme: minima
+theme: jekyll-theme-slate
 plugins:
   - jekyll-feed
 
