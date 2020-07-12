@@ -36,17 +36,32 @@ First run produced results that clearly different than what was expected.  This 
 ### Density at 9.8 Myr
 ##### Midplane:
 ![Density at 9.8 Myr](../../../../assets/images/2020/7/xyD98.png "Midplane density")
+<video width="620" height="620" controls>
+  <source src="../../../../assets/videos/2020/7/d_xy.mp4" type="video/mp4"/>
+</video> 
 ##### Transverse:
 ![Density at 9.8 Myr](../../../../assets/images/2020/7/xzD98.png "Transverse density")
+<video width="620" height="620" controls>
+  <source src="../../../../assets/videos/2020/7/d_xz.mp4" type="video/mp4"/>
+</video> 
 
 ### Midplane velocity magnitude  at 9.8 Myr
 ![Speed at 9.8 Myr](../../../../assets/images/2020/7/xyV98.png "Midplane velocity magnitude")
+<video width="620" height="620" controls>
+  <source src="../../../../assets/videos/2020/7/v_xy.mp4" type="video/mp4"/>
+</video> 
 
 ### Temperature  at 9.8 Myr
 ##### Midplane:
 ![Temperature at 9.8 Myr](../../../../assets/images/2020/7/xyTemp98.png "Midplane temperature")
+<video width="620" height="620" controls>
+  <source src="../../../../assets/videos/2020/7/T_xy.mp4" type="video/mp4"/>
+</video> 
 ##### Transverse:
 ![Temperature at 9.8 Myr](../../../../assets/images/2020/7/xzTemp98.png "Transverse temperature")
+<video width="620" height="620" controls>
+  <source src="../../../../assets/videos/2020/7/T_xz.mp4" type="video/mp4"/>
+</video> 
 
 
 
