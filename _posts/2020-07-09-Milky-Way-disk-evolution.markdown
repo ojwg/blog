@@ -35,18 +35,18 @@ First run produced results that clearly different than what was expected.  This 
 
 ### Density at 9.8 Myr
 ##### Midplane:
-![Density at 9.8 Myr](/assets/images/2020/7/xyD98.png "Midplane density")
+![Density at 9.8 Myr](../../../../assets/images/2020/7/xyD98.png "Midplane density")
 ##### Transverse:
-![Density at 9.8 Myr](/assets/images/2020/7/xzD98.png "Transverse density")
+![Density at 9.8 Myr](../../../../assets/images/2020/7/xzD98.png "Transverse density")
 
 ### Midplane velocity magnitude  at 9.8 Myr
-![Speed at 9.8 Myr](/assets/images/2020/7/xyV98.png "Midplane velocity magnitude")
+![Speed at 9.8 Myr](../../../../assets/images/2020/7/xyV98.png "Midplane velocity magnitude")
 
 ### Temperature  at 9.8 Myr
 ##### Midplane:
-![Temperature at 9.8 Myr](/assets/images/2020/7/xyTemp98.png "Midplane temperature")
+![Temperature at 9.8 Myr](../../../../assets/images/2020/7/xyTemp98.png "Midplane temperature")
 ##### Transverse:
-![Temperature at 9.8 Myr](/assets/images/2020/7/xzTemp98.png "Transverse temperature")
+![Temperature at 9.8 Myr](../../../../assets/images/2020/7/xzTemp98.png "Transverse temperature")
 
 
 
