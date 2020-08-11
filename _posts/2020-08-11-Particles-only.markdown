@@ -57,7 +57,7 @@ Perhaps a combination of the assumed initial speed distribution and the addition
 
 ### Particle Motions to 10 Myr
 A randomly selected subset of 300 particles are followed for 10 Myr.  At the limit of R \approx 2 kpc there appears to be a glitch calculating the velocities as the particles approach the domain boundaries.
-<video width="620" height="620" controls>
+<video width="820" height="820" controls>
   <source src="../../../../assets/videos/2020/8/particles.mp4" type="video/mp4"/>
 </video> 
 
