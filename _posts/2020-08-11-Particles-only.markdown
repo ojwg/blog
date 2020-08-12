@@ -2,8 +2,7 @@
 layout: post
 title:  "Particles-only Disk Evolution"
 date:   2020-08-11 16:00:00 -0400
-categories: disk
----
+categories: disk ---
 
 ## Initial Particle-only Evolution
 ---
@@ -49,14 +48,14 @@ The reason for running particle-only was to get a feel for the evolution after a
 
 ### Particle Density Evolution to 10 Myr
 ##### Midplane:
-The particle density appears to clump up in time and to assume the boxy shape of the initial simulation volume.  
+The particle density in the plane of the disk appears to clump up in time and to assume the boxy shape of the initial simulation volume.  
 Perhaps a combination of the assumed initial speed distribution and the addition of the analytical (dark matter) potential is not quite right.
 <video width="620" height="620" controls>
   <source src="../../../../assets/videos/2020/8/xy_part_density.mp4" type="video/mp4"/>
 </video> 
 
 ### Particle Motions to 10 Myr
-A randomly selected subset of 300 particles are followed for 10 Myr.  At the limit of R \approx 2 kpc there appears to be a glitch calculating the velocities as the particles approach the domain boundaries.
+The motion of 300 randomly selected clusters in the disk  are followed for 10 Myr.  At the limit of R \approx 2 kpc there appears to be a glitch calculating the velocities as the particles approach the domain boundaries.
 <video width="820" height="820" controls>
   <source src="../../../../assets/videos/2020/8/particles.mp4" type="video/mp4"/>
 </video> 
