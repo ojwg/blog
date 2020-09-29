@@ -27,4 +27,4 @@ Same scenario running on 4 GPUs and 7 OpenMP threads:
 The issues with the simulation don't appear to be related to how the job is partitioned.
 
 
-Alternatively the videos can be downloaded from [here (1 GPU)](https://github.com/ojwg/blog/blob/master/assets/videos/2020/09/300_particles_1gpu_no_openmp.mp4) and [here (4 GPU)](https://github.com/ojwg/blog/raw/master/assets/videos/2020/09/300_particles_4gpu.mp4)
+Alternatively the videos can be downloaded from [here (1 GPU)](https://github.com/ojwg/blog/raw/master/assets/videos/2020/09/300_particles_1gpu_no_openmp.mp4) and [here (4 GPU)](https://github.com/ojwg/blog/raw/master/assets/videos/2020/09/300_particles_4gpu.mp4)
