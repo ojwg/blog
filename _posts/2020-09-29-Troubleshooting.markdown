@@ -2,7 +2,8 @@
 layout: post
 title:  "Troubleshooting Particle Evolution with SOR"
 date:   2020-09-29 09:00:00 -0400
-categories: disk ---
+categories: disk
+---
 
 #### Test particle evolution
 ---
