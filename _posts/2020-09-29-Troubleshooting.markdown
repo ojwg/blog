@@ -13,13 +13,13 @@ The full analytic galactic potential is applied within the simulation region  an
 
 Without OpenMP and running on one 1 GPU:
 
-<video width="620" height="620" controls>
+<video width="620" height="620" preload="auto" controls>
   <source src="../../../../assets/videos/2020/9/300_particles_1gpu_no_openmp.mp4" type="video/mp4"/>
 </video> 
 
 Same scenario running on 4 GPUs and 7 OpenMP threads:
 
-<video width="620" height="620" controls>
+<video width="620" height="620" preload="auto" controls>
   <source src="../../../../assets/videos/2020/9/300_particles_4gpu.mp4" type="video/mp4"/>
 </video> 
 
