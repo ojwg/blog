@@ -2,7 +2,8 @@
 layout: post
 title:  "Particles-only Disk Evolution"
 date:   2020-08-11 16:00:00 -0400
-categories: disk ---
+categories: disk
+---
 
 ## Initial Particle-only Evolution
 ---
