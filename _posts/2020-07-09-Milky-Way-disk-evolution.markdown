@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title:  "MW Disk Evolution"
 date:   2020-07-09 16:00:00 -0400
 categories: disk
@@ -23,7 +23,7 @@ SLICES |
 PPMC | 
 HLLC | 
 VL | 
-DDE | 
+DE | 
 COOLING_GPU | 
 CPU_TIME | 
 STATIC_GRAV | 

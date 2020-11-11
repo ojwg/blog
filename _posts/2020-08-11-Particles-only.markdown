@@ -1,14 +1,13 @@
 ---
-layout: post
+layout: default
 title:  "Particles-only Disk Evolution"
 date:   2020-08-11 16:00:00 -0400
 categories: disk
 ---
 
 ## Initial Particle-only Evolution
----
 
-Particle-ony simulation for 4kpc sided box with MW-initial potential.   The particles are assumed to be stellar clusters with a fixed mass of $10^4 M_{\odot}$ Ran for the default 1 hour on 4 `amdMI60` GPUs on Poplar.  
+Particle-ony simulation for 4kpc sided box with MW-initial potential.   The particles are assumed to be stellar clusters with a fixed mass of $$10^4 M_{\odot}$$ Ran for the default 1 hour on 4 `amdMI60` GPUs on Poplar.  
 
 Compiler flags used:
 
@@ -56,7 +55,8 @@ Perhaps a combination of the assumed initial speed distribution and the addition
 </video> 
 
 ### Particle Motions to 10 Myr
-The motion of 300 randomly selected clusters in the disk  are followed for 10 Myr.  At the limit of R \approx 2 kpc there appears to be a glitch calculating the velocities as the particles approach the domain boundaries.
+The motion of 300 randomly selected clusters in the disk  are followed for 10 Myr.  Where the orbits touch the rectangular edges of the domain (R $$\approx 2$$ kpc, $$\phi \in \{ 0, \pi/2, \pi, 3/2\pi \} $$) there is a glitch calculating the velocities.
+On further analysis, the calculated gravitational potential was not being added to the ghost cells along the border leading to massive ficticious forces perpendicular to the boundary.
 <video width="820" height="820" controls>
   <source src="../../../../assets/videos/2020/8/particles.mp4" type="video/mp4"/>
 </video> 
