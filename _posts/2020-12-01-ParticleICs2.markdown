@@ -20,4 +20,5 @@ This is underscored by visually looking at the particle density evolution on the
 <video width="620" height="620" controls>
   <source src="../../../../assets/videos/2020/12/particle_density_xy.mp4" type="video/mp4"/>
 </video>
+(note that the number intensity upper limit was too low, truncating the image intensity in the center)
 
