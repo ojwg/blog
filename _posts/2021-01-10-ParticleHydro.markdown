@@ -16,6 +16,9 @@ Mass is injected assuming that each SN releases $$10\mathrm{M}_\odot$$ of materi
 Gas temperature at $$800$$ kyr along a x-z slice through the disk.
 ![Gas Temperature ](../../../../assets/images/2021/01/gas_temp_xz_800k.png "XZ Gas Temperature")
 
+The high extent of feedback above the galactic disk corresponds to the distribution of the particles:
+![Particle Distribution](../../../../assets/images/2021/01/particle_density_xz_800k.png "XZ Particle Density")
+
 Gas density at $$800$$ kyr along the same slice.
 ![Gas Density](../../../../assets/images/2021/01/gas_density_xz_800k.png "XZ Gas Density")
 
