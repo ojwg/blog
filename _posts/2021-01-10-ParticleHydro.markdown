@@ -26,4 +26,11 @@ The evolution of gas temperature along the x-z slice through the disk until $$85
   <source src=" ../../../../assets/videos/2021/01/gas_temp_xz_800kyr.mp4" type="video/mp4"/>
 </video>
 
+The gas velocity on the plane of the disk until $$850$$ kyr.  
+<video width="620" height="620" controls>
+  <source src=" ../../../../assets/videos/2021/01/gas_speed_xy.mp4" type="video/mp4"/>
+</video>
+<video width="620" height="620" controls>
+  <source src=" ../../../../assets/videos/2021/01/gas_speed_xy2.mp4" type="video/mp4"/>
+</video>
 
