@@ -22,11 +22,17 @@ The high extent of feedback above the galactic disk corresponds to the distribut
 Gas density at $$800$$ kyr along the same slice.
 ![Gas Density](../../../../assets/images/2021/01/gas_density_xz_800k.png "XZ Gas Density")
 
+Assuming a binary cluster population (initial age $$1.1\times 10^7$$ yrs when placed more that a disk scale height from the disk plane, 0 initial age otherwise) results in the following x-z temperature slice at 800 kyr.
+![Gas Temperature ](../../../../assets/images/2021/01/gas_temp_xz_800k_2pop.png "XZ Gas Temperature")
 
 
 The evolution of gas temperature along the x-z slice through the disk until $$850$$ kyr.
 <video width="620" height="620" controls>
   <source src=" ../../../../assets/videos/2021/01/gas_temp_xz_800kyr.mp4" type="video/mp4"/>
+</video>
+The same evolution for the binary population case:
+<video width="620" height="620" controls>
+  <source src=" ../../../../assets/videos/2021/01/gas_temp_xz_800kyr_2pop.mp4" type="video/mp4"/>
 </video>
 
 The gas velocity on the plane of the disk until $$850$$ kyr.  
