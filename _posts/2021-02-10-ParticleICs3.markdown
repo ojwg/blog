@@ -37,7 +37,15 @@ The y-intercept of the polynomial fit is $$\ln(\frac{M_d}{2\pi R_d^2})$$, where 
 value for $$R_d$$ yields $$M_d = 6.6\mathrm{x}10^{10} M_\odot$$, which is close to the expected value of $$6.5\mathrm{x}10^{10} M_\odot$$.
 
 Similarly, integrating the inital mass density along horizontal slices gives the following vertical mass distribution:
-![Vertical Mass Distribution]({{'/assets/images/2021/02/vert_mass_distro.png' | relative_url }})
+![Vertical Mass Distribution]({{'/assets/images/2021/02/vert_mass_distro_time.png' | relative_url }})
 
-Trimming the data to exclude the mass on the disk plane and those values of height for which the mass approaches zero results in an exponential decay fit with a scale 
+Trimming the initial data to exclude the mass on the disk plane and those values of height for which the mass approaches zero results in an exponential decay fit with a scale 
 height of $$0.78$$ kpc, which is close to that assumed by Cholla's Milky Way model ($$0.7$$ kpc).
+
+## Smaller mass population
+
+Assuming the particles to have $$1 \mathrm{M}_\odot$$ --representing $$1/10000$$ the total disk mass -- did not help matter.  The following shows 300 selected orbits as 
+they drift outwards over $$200$$ kyr.  
+<video width="620" height="620" controls>
+  <source type="video/mp4" src="{{'/assets/videos/2021/02/solar_mass_orbits.mp4' | relative_url }}"/>
+</video>
