@@ -26,7 +26,7 @@ and created the `Set_Particles_Open_Boundary` method in `particles_boundaries_cp
 At first I deleted the particles outside the domain (that are not MPI transfers), using the `stl::vector::erase` method.  Since all elements after the one that's deleted need to be moved, 
 this approach would be fine when dealing with 38 clusters, but not in general.  Initially this didn't quite work because I hadn't deleted the corresponding elements in the velocity vector 
 (as well as the other vectors with particle data, such as IDs).  I tweaked things by moving the transfered particles far away from the simulation volume.  Although a clunky approach, it 
-avoided the linear complexity of vector `erase` calls  and worked:
+avoided the linear complexity of vector `erase` calls  and had the benefit of actually working:
 
 <video width="620" height="620" controls>
    <source src="{{ '/assets/videos/2021/06/particle_orbits_open_bc2.mp4' | relative_url }}" type="video/mp4"/>  -->
