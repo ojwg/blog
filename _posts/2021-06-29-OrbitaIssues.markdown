@@ -16,7 +16,7 @@ Simulating 38 $$10^5 \mathrm{M}_\odot$$ stellar clusters orbiting within 2 kpc o
 </video>
 
 There are a couple problems illustrated by the video.  The most serious is that particles placed on circular trajectories are not actually following circular paths 
-(only as the radius approaches 2 kpc).  
+(problems arise as the radius approaches 2 kpc).  
 The second issue is that clusters moving out of the simulation volume are still shown.  
 
 For the second problem I needed to implement open boundary conditions for particles.  I made changes to `boundary_conditions.cpp`:
