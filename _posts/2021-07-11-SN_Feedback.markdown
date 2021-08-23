@@ -41,12 +41,39 @@ Temperature on the xz plane from the same simulation as above:
    <source src="{{ '/assets/videos/2021/07/xz_gas_temp.mp4' | relative_url }}" type="video/mp4"/>  -->
 </video>
 
-Likewise for xy gas density:
+After modifying the algorithm to deal with lack of resolution, here are the equivalent videos/images as above:
+
+XY temperature at 9 Myr:
+![9 Myr gas temperature](../../../../../assets/images/2021/07/9Myr_xy_gas_temp_momentum_imp.png "9Myr xy gas temp")
+..and the corresponding XZ temperature:
+![9 Myr gas temperature](../../../../../assets/images/2021/07/9Myr_xz_gas_temp_momentum_imp.png "9Myr xz gas temp")
+XY density at 9 Myr:
+![9 Myr gas density](../../../../../assets/images/2021/07/9Myr_xy_gas_temp_momentum.png "9Myr xy gas density")
+..and the corresponding XZ density:
+![9 Myr gas density](../../../../../assets/images/2021/07/9Myr_xz_gas_temp_momentum.png "9Myr xz gas density")
+
+XY (galactic plane) gas temperature (running for 20 Myr):
 <video width="620" height="620" controls>
-   <source src="{{ '/assets/videos/2021/07/xy_gas_density.mp4' | relative_url }}" type="video/mp4"/>  -->
+   <source src="{{ '/assets/videos/2021/07/xy_gas_temp_20Myr_momentum.mp4' | relative_url }}" type="video/mp4"/>  -->
+</video>
+XZ plane temperature:
+<video width="620" height="620" controls>
+   <source src="{{ '/assets/videos/2021/07/xz_gas_temp_20Myr_momentum.mp4' | relative_url }}" type="video/mp4"/>  -->
 </video>
 
-Time steps are mostly around 2kyr, falling occasionally under 1kyr.  
+XY gas density:
+<video width="620" height="620" controls>
+   <source src="{{ '/assets/videos/2021/07/xy_gas_density_20Myr_momentum.mp4' | relative_url }}" type="video/mp4"/>  -->
+</video>
+XZ gas density:
+<video width="620" height="620" controls>
+   <source src="{{ '/assets/videos/2021/07/xz_gas_density_20Myr_momentum.mp4' | relative_url }}" type="video/mp4"/>  -->
+</video>
+XY speed distribution:
+<video width="620" height="620" controls>
+   <source src="{{ '/assets/videos/2021/07/xy_gas_velocity_20Myr_momentum.mp4' | relative_url }}" type="video/mp4"/>  -->
+</video>
+
 
 ---
 
