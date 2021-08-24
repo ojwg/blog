@@ -48,9 +48,9 @@ XY temperature at 9 Myr:
 ..and the corresponding XZ temperature:
 ![9 Myr gas temperature](../../../../../assets/images/2021/07/9Myr_xz_gas_temp_momentum_imp.png "9Myr xz gas temp")
 XY density at 9 Myr:
-![9 Myr gas density](../../../../../assets/images/2021/07/9Myr_xy_gas_temp_momentum.png "9Myr xy gas density")
+![9 Myr gas density](../../../../../assets/images/2021/07/9Myr_xy_gas_density_momentum.png "9Myr xy gas density")
 ..and the corresponding XZ density:
-![9 Myr gas density](../../../../../assets/images/2021/07/9Myr_xz_gas_temp_momentum.png "9Myr xz gas density")
+![9 Myr gas density](../../../../../assets/images/2021/07/9Myr_xz_gas_density_momentum.png "9Myr xz gas density")
 
 XY (galactic plane) gas temperature (running for 20 Myr):
 <video width="620" height="620" controls>
