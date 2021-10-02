@@ -23,13 +23,18 @@ simulation.
 
 ---
 
-Gas speed in the galactic plane for the simulation marked `analytic` in the velocity dispersion plot.
+Gas speed in the galactic plane for the simulation marked `analytic` in the velocity dispersion plot:
 <video width="620" height="620" controls>
    <source src="{{ '/assets/videos/2021/09/20Myr_xy_hydro_speed.mp4' | relative_url }}" type="video/mp4"/> 
 </video>
 [comment]: <> (vid comes from data from CRC Sep29_21_Wednesday-09-42_38_particle_hydro_feedback_stats_ANALYTIC_20Myr)
 
-Gas density for the same simulation as above (`analytic`)
+The logarithm base 10 of the same plot as above (`analytic`):
+<video width="620" height="620" controls>
+   <source src="{{ '/assets/videos/2021/09/20Myr_xy_hydro_log_speed.mp4' | relative_url }}" type="video/mp4"/> 
+</video>
+
+Gas density for the same simulation as above (`analytic`):
 <video width="620" height="620" controls>
    <source src="{{ '/assets/videos/2021/09/20Myr_xy_hydro_density.mp4' | relative_url }}" type="video/mp4"/> 
 </video>
