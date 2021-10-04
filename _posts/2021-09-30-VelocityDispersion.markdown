@@ -16,10 +16,17 @@ Also included are two plots for the same simulation but without the SN feedback 
 
 ---
 
-What clearly stands out are the large jumps in velocity dispersion at early times.  The data for each plot came from repeating the same scenario using a fixed seed when setting up the 
-initial cluster locations as well as when initializing the SNe poisson random number generator.  Since the `analytic` data show velocity dispersion jumps not seen in the `poisson` case one
-potential explanation is that this is an artifact of contention problems when adding feedback to the gas.   However this doesn't explain why these jump are prevalent towards the start of the 
-simulation.
+What clearly stands out are the large jumps in velocity dispersion at early times.  The data for each plot came from repeating the same scenario using fixed seeds, making the 
+dispersion jump seen on the `analytic` plot but missing on the `poisson` plot (at around 950 kyr) surprising.  I thought the difference due to a multithreading bug in the feedback 
+implementation, while Dr. Schneider thought it could be due to unresolved SNe resulting from higher than expected ISM density variations.  The following plot takes a closer look 
+at the relevant data.
+
+![Zoomed in Gas Velocity Dispersion]({{'/assets/images/2021/09/zoom_in_dispersion.png' | relative_url}}) 
+
+The blue curve represents the velocity dispersion measurements.
+The vertical gray dotted lines indicate the occurrence in time of resolved SNe, while the red dotted lines mark the occurrence of unresolved SNe.  Interestingly two unresolved SNe took place
+just before the rise in velocity dispersion.  The previous unresolved SN happened at time 460 kyr and no other unresolved SN took place after.   It seems plausible that the `poisson` 
+method for calculating velocity dispersion is better able to "smooth-over" the local vagaries of density perturbations.
 
 ---
 
