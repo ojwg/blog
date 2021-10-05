@@ -28,7 +28,21 @@ The vertical gray dotted lines indicate the occurrence in time of resolved SNe, 
 just before the rise in velocity dispersion.  The previous unresolved SN happened at time 460 kyr and no other unresolved SN took place after.   It seems plausible that the `poisson` 
 method for calculating velocity dispersion is better able to "smooth-over" the local vagaries of density perturbations.
 
+Looking at a previous spike in the `analytic` curve at time 325 kyr
+![Zoomed in Gas Velocity Dispersion2]({{'/assets/images/2021/09/zoom_in_dispersion2.png' | relative_url}}) 
+and at time 220 kyr
+![Zoomed in Gas Velocity Dispersion3]({{'/assets/images/2021/09/zoom_in_dispersion3.png' | relative_url}}) 
+we also find a correlation with unresolved SNe.
+
+If we expand the view for the data at 220 kyr
+![Zoomed in Gas Velocity Dispersion4]({{'/assets/images/2021/09/zoom_in_dispersion4.png' | relative_url}}) 
+we see that not all unresolved SNe are associated with dispersion spikes.  This is to be expected if an unresolved SN takes place in a very localized high-density 
+region surrounded by low density gas.
+
 ---
+
+Gas density in the galactic plane at a million years (just after the last velocity dispersion spike in the `analytic` plot):
+![Gas Density]({{'/assets/images/2021/09/10.png' | relative_url}}) 
 
 Gas speed in the galactic plane for the simulation marked `analytic` in the velocity dispersion plot:
 <video width="620" height="620" controls>
