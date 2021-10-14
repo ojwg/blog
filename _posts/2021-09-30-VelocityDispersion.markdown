@@ -61,4 +61,19 @@ Gas density for the same simulation as above (`analytic`):
 </video>
 
 
+---
+
+Plotting the difference between the gas speed and the "mean speed":
+
+<video width="620" height="620" controls>
+   <source src="{{ '/assets/videos/2021/09/20Myr_xy_hydro_log_disp_with_pressure.mp4' | relative_url }}" type="video/mp4"/> 
+</video>
+
+The peak velocity dispersion values appear to exceed the peak gas velocity values.  The problem is with the inclusion of the pressure gradient in the calculation of the mean streaming velocity.  While this
+makes sense in calculating near-equilibrium gas circular velocities, it breaks down when dealing with SNe.
+Removing this term results in the following better behaved velocity dispersion video:
+
+<video width="620" height="620" controls>
+   <source src="{{ '/assets/videos/2021/09/20Myr_xy_hydro_log_disp_no_pressure.mp4' | relative_url }}" type="video/mp4"/> 
+</video>
 
