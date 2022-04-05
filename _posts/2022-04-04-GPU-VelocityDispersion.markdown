@@ -10,14 +10,19 @@ categories: disk feedback gpu
 
 ## Cluster Population
 
-I evolved 35 clusters drawn from a mass distribution of form $$1/\mathrm{mass}$$ bounded by $$10^4 \mathrm{M}_\odot$$ and $$5\times10^6 \mathrm{M}_\odot$$.
+I evolved 35 clusters drawn from a mass distribution of form $$1/\mathrm{mass}$$ bounded by $$10^4 \mathrm{M}_\odot$$ and $$5\times10^6 \mathrm{M}_\odot$$ (pdf provided by Dr Schneider).
 The total mass in these cluster particles was $$2.1\times 10^7 \mathrm{M}_\odot$$, or almost an order of magnitude more than in the previous CPU simulations.
 These clusters were placed at radial positions drawn from a gamma distribution ($$\alpha=2$$, $$\theta=1$$), multiplied by the disk radial scale length and constrained to 
 lie within 2 kpc radius of the galactic center. 
 
+## Global SN Numbers
+
+During the 10 Myr simulation there were a total of $$34571$$SNe of which $$304$$ were unresolved.  A total of $$3.44\times10^{55}$$erg was injected into the ISM along 
+with $$1.92\times10^{8} \mathrm{M}_\odot \mathrm{km}/\mathrm{s}$$ of momentum along the x-direction. 
+
 ## Gas Density
 
-These videos correspond to the gas density evolution over 10 Myr.
+These videos show the gas density evolution over the 10 Myr.
 Density on the disk plane:
 <video width="620" height="620" controls>
    <source src="{{ '/assets/videos/2022/04/xy_density_hydro_clusters.mp4' | relative_url }}" type="video/mp4"/> 
