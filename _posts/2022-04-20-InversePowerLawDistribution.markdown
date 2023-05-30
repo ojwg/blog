@@ -21,7 +21,7 @@ Taking the logarithm of the probability distribution one gets $$\log \phi(\mathr
 with $$\log\mathrm{M}$$.  This does not imply that the probability distribution function in log space also linearly decreases with mass.  In other words 
 $$\log\phi(\mathrm{M}) \neq \frac{\mathrm{d \log(N)}}{\mathrm{d \log(M)}} = \mathrm{\frac{M}{N} \frac{dN}{dM} \equiv \frac{M}{N} \phi(M)}$$. 
 
-The original histogram from the ipython notebook provided by Dr.Evan,
+The original histogram from the ipython notebook provided by Dr. Schneider,
 ![Original Histogram]({{'/assets/images/2022/04/evan_histogram.png' | relative_url}}) 
 
 seems to follow the shape of the logarithm of the probability distribution only because it's a reverse cumulative density plot and few bins are used.  The latter point is 
@@ -36,7 +36,7 @@ Cholla.  If I scale up the distribution I used in Cholla to yield an equivalent 
 
 ![Orlando Histogram]({{'/assets/images/2022/04/orlando_histogram.png' | relative_url}}) 
 
-which is similar to the 20 binned histogram from Dr. Evan's notebook.  If I also make this a reverse cumulative density plot with 4 bins, I get a plot much like the original.
+which is similar to the 20 binned histogram from Dr.  Schneider's notebook.  If I also make this a reverse cumulative density plot with 4 bins, I get a plot much like the original.
 
 ![Relative Orlando Histogram]({{'/assets/images/2022/04/cum_orlando_histogram.png' | relative_url}}) 
 
