@@ -6,11 +6,9 @@ categories: frontier feedback CGOLS
 ---
 [comment]: <> (data comes from running on CRC )
 
-### Feedback Only  ###
----
+## Feedback Only  ##
 
 #### MW-like galaxy disk ####
----
 
  **Simulation volume**: 30 kpc-sided rectangular area by 10 kpc height ($$\pm 5$$ kpc)
  Assuming a 2 pc resolution and that each GPU can hold a $$256^3$$ subgrid, the simulation requires $$(30 \times 30 \times 10\, \textrm{kpc}^3) \times \left(\frac{1\, \textrm{GPU}}{0.512\, \mbox{kpc}}\right)^3,$$ or $$67,056\, \textrm{GPU}$$ (89% of Frontier).
@@ -47,4 +45,4 @@ categories: frontier feedback CGOLS
 From previous results can justify looking at the region above/below the galactic center
 (do we need to put the galaxy in the middle of the box?)  In this way we could focus more on the central chimneys/Fermi Bubbles.  Do the cloud size distribution we find correspond to observations? (This analysis might be more relevant when running with Cloudy cooling)
 Other synthetic observations?
-
+---
